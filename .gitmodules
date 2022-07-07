@@ -1,0 +1,6 @@
+[submodule "PacketSniffer/vendor/ImGuiColorTextEdit"]
+	path = PacketSniffer/vendor/ImGuiColorTextEdit
+	url = https://github.com/BalazsJako/ImGuiColorTextEdit.git
+[submodule "cheat-base/vendor/protobuf"]
+	path = cheat-base/vendor/protobuf
+	url = https://github.com/protocolbuffers/protobuf.git

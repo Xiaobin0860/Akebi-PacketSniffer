@@ -220,7 +220,7 @@
       <PreprocessorDefinitions> _CRT_SECURE_NO_WARNINGS; WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>$(ProjectDir)src\;$(ProjectDir)framework\;$(ProjectDir)vendor\ImGuiColorTextEdit\;$(SolutionDir)cheat-base\src\;$(SolutionDir)cheat-base\vendor\magic_enum\include\;$(SolutionDir)cheat-base\vendor\imgui\;$(SolutionDir)cheat-base\vendor\fmt\include\;$(SolutionDir)cheat-base\vendor\json\single_include\;$(SolutionDir)cheat-base\vendor\simpleIni\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)src\;$(ProjectDir)framework\;$(ProjectDir)vendor\ImGuiColorTextEdit\;$(SolutionDir)cheat-base\src\;$(SolutionDir)cheat-base\vendor\magic_enum\include\;$(SolutionDir)cheat-base\vendor\imgui\;$(SolutionDir)cheat-base\vendor\fmt\include\;$(SolutionDir)cheat-base\vendor\json\single_include\;$(SolutionDir)cheat-base\vendor\simpleIni\$(SolutionDir)cheat-base\vendor\protobuf\src\</AdditionalIncludeDirectories>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
@@ -262,7 +262,7 @@
       <PreprocessorDefinitions> _CRT_SECURE_NO_WARNINGS; _DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>$(ProjectDir)src\;$(ProjectDir)framework\;$(ProjectDir)vendor\ImGuiColorTextEdit\;$(SolutionDir)cheat-base\src\;$(SolutionDir)cheat-base\vendor\magic_enum\include\;$(SolutionDir)cheat-base\vendor\imgui\;$(SolutionDir)cheat-base\vendor\fmt\include\;$(SolutionDir)cheat-base\vendor\json\single_include\;$(SolutionDir)cheat-base\vendor\simpleIni\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)src\;$(ProjectDir)framework\;$(ProjectDir)vendor\ImGuiColorTextEdit\;$(SolutionDir)cheat-base\src\;$(SolutionDir)cheat-base\vendor\magic_enum\include\;$(SolutionDir)cheat-base\vendor\imgui\;$(SolutionDir)cheat-base\vendor\fmt\include\;$(SolutionDir)cheat-base\vendor\json\single_include\;$(SolutionDir)cheat-base\vendor\simpleIni\;$(SolutionDir)cheat-base\vendor\protobuf\src\</AdditionalIncludeDirectories>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
