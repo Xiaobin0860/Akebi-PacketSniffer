@@ -136,7 +136,7 @@ namespace sniffer
 			constexpr std::array<std::pair<const char*, size_t>, 2> cmdIDPatterns = {
 				{
 					{ "CMD_ID = ", 9 },
-					{ "// CmdId: ", 10 }
+					{ "CmdId: ", 7 }
 				}
 			};
 
@@ -146,7 +146,7 @@ namespace sniffer
 				size_t start_index = 0;
 				for (auto& ch : line)
 				{
-					if (ch != ' ' && ch != '\t')
+					if (ch != ' ' && ch != '\t' && ch != '/')
 						break;
 					start_index++;
 				}
