@@ -9,6 +9,8 @@ namespace sniffer
 		
 		if (CmdIdMode)
 			SetCMDIDMode(CmdIdMode);
+
+		UpdateUnionPacketIDs();
 	}
 
 	void PacketParser::SetProtoDir(const std::string& protoDir)
